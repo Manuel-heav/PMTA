@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    --primaryColor: #0c181c;
+    --secondaryColor: linear-gradient(45deg, red, rgb(245,14,122));
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: ghostwhite;
+    background: var(--primaryColor);
+}
+
